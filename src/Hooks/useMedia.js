@@ -6,7 +6,6 @@ const useMedia = (media) => {
   React.useEffect(() => {
     const changeMatch = () => {
       const { matches } = window.matchMedia(media);
-      console.log('match', matches)
       setMatch(matches);
     };
     changeMatch();
