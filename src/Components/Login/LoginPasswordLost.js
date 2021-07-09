@@ -2,6 +2,7 @@ import React from "react";
 import Input from "../Forms/Input";
 import Button from "../Forms/Button";
 import Error from "../Helper/Error";
+import Head from "../Helper/Head";
 import useForm from "../../Hooks/useForm";
 import useFetch from "../../Hooks/useFetch";
 import { PASSWORD_LOST } from "../../api";
@@ -23,9 +24,10 @@ const LoginPasswordLost = () => {
 
   return (
     <section>
+      <Head title="Perdeu a senha?" />
       <h1 className="title">Perdeu a senha?</h1>
       {data ? (
-        <p style={{color: '#4c1'}}>{data}</p>
+        <p style={{ color: "#4c1" }}>{data}</p>
       ) : (
         <form onSubmit={handleSubmit}>
           <Input label="Email / Usuário" type="text" name="login" {...login} />
