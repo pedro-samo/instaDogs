@@ -1,17 +1,18 @@
 import React from "react";
-import Input from "../Forms/Input";
-import Button from "../Forms/Button";
-import Error from "../Helper/Error";
-import Head from "../Helper/Head";
-import useForm from "../../Hooks/useForm";
 import { USER_POST } from "../../api";
 import { UserContext } from "../../UserContext";
 import useFetch from "../../Hooks/useFetch";
+import useForm from "../../Hooks/useForm";
+import Button from "../Forms/Button";
+import Error from "../Helper/Error";
+import Input from "../Forms/Input";
+import Head from "../Helper/Head";
 
 const LoginCreate = () => {
   const username = useForm();
   const email = useForm("email");
   const password = useForm();
+
   const { userLogin } = React.useContext(UserContext);
   const { loading, error, request } = useFetch();
 
@@ -20,7 +21,7 @@ const LoginCreate = () => {
     const { url, options } = USER_POST({
       username: username.value,
       email: email.value,
-      passwprd: password.value,
+      password: password.value,
     });
     const { response } = await request(url, options);
     if (response.ok) userLogin(username.value, password.value);
@@ -28,7 +29,7 @@ const LoginCreate = () => {
 
   return (
     <section className="animeLeft">
-      <Head title="Crie sua conta" />
+      <Head title="Crie sua conta" description="Página para criar conta" />
       <h1 className="title">Cadastre-se</h1>
       <form onSubmit={handleSubmit}>
         <Input label="Usuário" type="text" name="username" {...username} />
@@ -39,7 +40,7 @@ const LoginCreate = () => {
         ) : (
           <Button>Cadastrar</Button>
         )}
-        <Error error={error} />
+        <Error error={error}/>
       </form>
     </section>
   );
