@@ -1,4 +1,4 @@
-name: Dogs
+name: deploy
 
 on:
   push:
