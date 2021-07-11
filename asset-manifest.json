@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/instaDogs/static/css/main.be20f242.chunk.css",
+    "main.js": "/instaDogs/static/js/main.6170146e.chunk.js",
+    "main.js.map": "/instaDogs/static/js/main.6170146e.chunk.js.map",
+    "runtime-main.js": "/instaDogs/static/js/runtime-main.a092f174.js",
+    "runtime-main.js.map": "/instaDogs/static/js/runtime-main.a092f174.js.map",
+    "static/js/2.d71c0c84.chunk.js": "/instaDogs/static/js/2.d71c0c84.chunk.js",
+    "static/js/2.d71c0c84.chunk.js.map": "/instaDogs/static/js/2.d71c0c84.chunk.js.map",
+    "static/js/3.b2c93187.chunk.js": "/instaDogs/static/js/3.b2c93187.chunk.js",
+    "static/js/3.b2c93187.chunk.js.map": "/instaDogs/static/js/3.b2c93187.chunk.js.map",
+    "static/css/4.19eb7c4c.chunk.css": "/instaDogs/static/css/4.19eb7c4c.chunk.css",
+    "static/js/4.98ac8694.chunk.js": "/instaDogs/static/js/4.98ac8694.chunk.js",
+    "static/js/4.98ac8694.chunk.js.map": "/instaDogs/static/js/4.98ac8694.chunk.js.map",
+    "index.html": "/instaDogs/index.html",
+    "static/css/4.19eb7c4c.chunk.css.map": "/instaDogs/static/css/4.19eb7c4c.chunk.css.map",
+    "static/css/main.be20f242.chunk.css.map": "/instaDogs/static/css/main.be20f242.chunk.css.map",
+    "static/js/3.b2c93187.chunk.js.LICENSE.txt": "/instaDogs/static/js/3.b2c93187.chunk.js.LICENSE.txt",
+    "static/media/adicionar.2fe277f9.svg": "/instaDogs/static/media/adicionar.2fe277f9.svg",
+    "static/media/dogs-footer.9c77af3a.svg": "/instaDogs/static/media/dogs-footer.9c77af3a.svg",
+    "static/media/dogs.69bf6d22.svg": "/instaDogs/static/media/dogs.69bf6d22.svg",
+    "static/media/enviar.6af5e9dd.svg": "/instaDogs/static/media/enviar.6af5e9dd.svg",
+    "static/media/estatisticas.c69dd1e1.svg": "/instaDogs/static/media/estatisticas.c69dd1e1.svg",
+    "static/media/feed.b8b13312.svg": "/instaDogs/static/media/feed.b8b13312.svg",
+    "static/media/Login.module.css": "/instaDogs/static/media/login.07d71f5b.jpg",
+    "static/media/sair.a1917210.svg": "/instaDogs/static/media/sair.a1917210.svg",
+    "static/media/Header.module.css": "/instaDogs/static/media/usuario.6d65a298.svg",
+    "static/media/PhotoContent.module.css": "/instaDogs/static/media/visualizacao-black.ee94fd3d.svg",
+    "static/media/FeedPhotoItem.module.css": "/instaDogs/static/media/visualizacao.09cd5578.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a092f174.js",
+    "static/js/3.b2c93187.chunk.js",
+    "static/css/main.be20f242.chunk.css",
+    "static/js/main.6170146e.chunk.js"
+  ]
+}
